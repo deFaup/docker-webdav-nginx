@@ -11,6 +11,7 @@ services:
       - NGINX_CLIENT_MAX_BODY_SIZE=500M
       - ADMIN_USER=admin
       - ADMIN_PASS=changeme
+      # - SIGNUP_HOST=
     networks:
       - webdav
     ports:
